@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head class="cabecalho">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek Willian</title>
+    
+    
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+
+        <header class="titulo">
+            <img src="./assets/LogoTitulo.png" class="img_geek">
+
+        </header>
+
+
+        <div class="container__inicial">
+        <div class="container__Produtos">
+            <p class="titulo__div">Meus Produtos: </p>
+
+            <ul class="produtos__itensul">
+                <div class="produtos__itens">
+                    <li class="produtos__imagem"> <img src="./assets/bonecowooody.png" width="176px" height="174px"></li>
+                    <li class="produtos__nome"> Caneca StarWar </li>
+                    <li class="produto__valor">  R$ 60,00</li>                
+                </div>
+
+                <div class="produtos__itens">
+                    <li class="produtos__imagem"> <img src="./assets/console portatil.jpg"width="176px" height="174px"></li>
+                    <li class="produtos__nome"> Caneca StarWar </li>
+                    <li class="produto__valor">  R$ 60,00</li>                
+                </div>
+
+                <div class="produtos__itens">
+                    <li class="produtos__imagem"> <img src="./assets/fone.png       "width="176px" height="174px"></li>
+                    <li class="produtos__nome"> Caneca StarWar </li>
+                    <li class="produto__valor">  R$ 60,00</li>                
+                </div>
+
+                <div class="produtos__itens">
+                    <li class="produtos__imagem"> <img src="./assets/mouse.png"width="176px" height="174px"></li>
+                    <li class="produtos__nome"> Caneca StarWar </li>
+                    <li class="produto__valor">  R$ 60,00</li>                
+                </div>
+
+
+            </ul>
+           
+
+
+        </div>
+        <div class="adicionarProdutos">
+            <p class="titulo__div">Adicionar <br />Produtos:</p>
+                <form action = "" form>
+                    <div class="adicionaProdutos__Inserir">
+                        <input type="text" id="adicionarProduto__nome" placeholder="nome...">
+                        <input type="text" id="adicionarProduto__valor" placeholder="valor...">
+                        <input type="file" id="adicionarProduto__imagem" alt="imagem..." src="./assets/upload.png" width="40px" height="40px">
+                        <div class="btn__container">
+                        <button onclick = "criarFoto()" class="btn__salvarProduto">Guardar</button>
+                        <button class="btn__limpar">Limpar</button>
+                    </div>            
+                    </div>
+                </form>
+        </div>
+    </div>
+
+
+
+    
+</body>
+
+<footer class="rodape">
+    <img src="./assets/LogoTitulo.png" class="img_geek">
+    <p> DESENVOLVIDO POR WILLIAN JUNIO</p>
+    <p2> ALURA LATAM  -  2024</p2>
+
+</footer>
+<script src="./main.js"></script>
+</html>
